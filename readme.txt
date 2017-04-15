@@ -1,4 +1,4 @@
-This is for ECS 160 HW3. Please double-click Prototype/frame.html to test working version
+This is ECS 160 project. Please double-click Prototype/frame.html to test working version
 
 Member:
 Edward Kim
