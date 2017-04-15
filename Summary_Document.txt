@@ -1,0 +1,83 @@
+All below can be tested Prototype_iphone/frame.html
+
+
+1. Authenticating	a	user.
+
+- starts at 1.Login.png screen.
+- (if user already has an account) enter id and password then move on to 3.After_login.png screen.
+- (if user doesn't have an account) click create account, which leads to 2.Create_Account.png
+  Once user clicks Create an Account button, redirect them to 1.Login.png screen.
+
+At this point of stage, user is on 3.After_login.png screen.
+This screen gives user six options. Create walk, Search Walk, Create an Event, View Events, Profile, Walk History.
+  
+
+Create Walk
+
+- clicking Create Walk from main(3.After_login.png) screen will lead user to 4.create_walk page.
+- This page has two options. One is set current point and the other one is set destination.
+- Once user has set two points and click start button, this will lead to 5.TakeWalk.png screen.
+- while user is walking (5.TakeWalk screen ), user is able to upload picture by clicking upload picture button. This will redirect user to 6.PicturePost.png screen.
+- Once user has uploaded a picture and post, it will redirect them to walking screen(5.TakeWalk screen).
+- Once user has finished walking and click Done button, it will lead user to 7.finished_walking.png screen.
+- 7.finished_walking screen has rating, comment, post, share features.
+- Once user clicks post, it opens 8.Confirmation_1.png screen to verify user.
+- Once user clicks share, it opens 8.Confirmation_2.png screen to verify user.
+- Once user clicks done, it redirects user to main(3.After_login.png) screen and save walk to walking history screen(22.Walk History.png)
+
+
+
+Search Walk
+
+- clicking Search Walk from main(3.After_login.png) screen will lead user to 10.SearchRoute.png page.
+- Once user clicks View Walk button after searching, it will redirect user to 24.ViewWalk.png screen.
+- This screen shows the current Walk's picture, rating, comment, point of interests.
+- Once user clicks View Path button, it opens 25.ViewPath.png screen, which shows all the point of interests on map.
+- Once user clicks Take Walk button, it leads user to 5.TakeWalk.png screen.
+- This page has two options. One is set current point and the other one is set destination.
+- Once user has set two points and click start button, this will lead to 5.TakeWalk.png screen.
+- while user is walking (5.TakeWalk screen ), user is able to upload picture by clicking upload picture button. This will redirect user to 6.PicturePost.png screen.
+- Once user has uploaded a picture and post, it will redirect them to walking screen(5.TakeWalk screen).
+- Once user has finished walking and click Done button, it will lead user to 7.finished_walking.png screen.
+- 7.finished_walking screen has rating, comment, post, share features.
+- Once user clicks post, it opens 8.Confirmation_1.png screen to verify user before it is posted.
+- Once user clicks share, it opens 8.Confirmation_2.png screen to verify user before it is shared.
+- Once user clicks done, it redirects user to main(3.After_login.png) screen and save walk to walking history screen(22.Walk History.png)
+
+
+Create an Event
+
+- clicking Create an Event from main(3.After_login.png) screen will lead user to 11.CreateEvent.png screen.
+- Clicking Search Route button opens 12.Search_walk_2.png screen so that user can search a walk and add to it.
+- Clicking Create Route button opens 13.Create_walk_2.png screen so that user can create a walk and add to it.
+- Clicking Friend List under Invite Friend will opens 14.FriendList.png screen so that user can invite a friend / friends to the event.
+- After user sets Set Time and Authority and clicks Create button, it redirects user to 15.Create_Event_2.png screen.
+
+
+View Event
+
+- clicking View Event from main(3.After_login.png) screen will lead user to 16.Event_List.png screen which shows the list of events.
+- Clicking any events under 16.Event_List.png will lead user to 17.ViewEvent.png screen, which has a map, time, location, and members.
+- Clicking Join button will open 18.Take_Walk_Group.png screen. This screen is similar to previous take_walk screen, but this one has one more button, Locate Group Member.
+- Once user has finished walking and click Done button, it will lead user to 7.finished_walking.png screen.
+- 7.finished_walking screen has rating, comment, post, share features.
+- Once user clicks post, it opens 8.Confirmation_1.png screen to verify user before it is posted.
+- Once user clicks share, it opens 8.Confirmation_2.png screen to verify user before it is shared.
+- Once user clicks done, it redirects user to main(3.After_login.png) screen and save walk to walking history screen(22.Walk History.png)
+
+
+
+Profile
+
+- clicking Profile from main(3.After_login.png) screen will lead user to 19.Profile.png screen 
+- This screen allows user to edit their picture, full name, gender, age, total walking. Moreover, it has friend list function.
+- Once user clicks Friends button, it opens 20.Friend_list_2.png screen, which allows user to delete their friends among list.
+- Once user clicks Add button, it opens 21.Add_Friend.png screen which allows user to search and add new people to their friend list.
+
+
+
+Walk History
+
+- clicking Walk History from main(3.After_login.png) screen will lead user to 22.WalkHistory.png screen 
+- Walk History(22.WalkHistory.png) screen shows all the walking history that user has finished.
+- Once user clicks one of walking history, it opens 23.Walk_history_click.png screen, which has rating that user has rated, points of interests and comment. User can also upload picture from here.

@@ -1,0 +1,13 @@
+Add the following use cases:
+1. Authentication.
+2. Tag walks.
+3. Join a walk.
+4. Event/communication platform for multiple users to decide on a checkpoint.
+5. Locate all members during a group walk
+
+Other comments:
+1. The use case for saving data should be described as creating a walk.
+2. Upload pictures, rating a walk, posting a walk should each be in separate use cases. 
+(No points deducted for both).
+
+ Also look at the use case list uploaded for other possible cases.
